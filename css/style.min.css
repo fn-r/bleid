@@ -1,0 +1,237 @@
+body {
+    overflow-x: hidden;
+}
+
+ul.list-style-auto {
+    list-style: disc;
+}
+
+svg#freepik_stories-sync:not(.animated) .animable {
+    opacity: 0;
+}
+
+svg#freepik_stories-sync.animated #freepik--device-2--inject-12 {
+    animation: 6s Infinite linear floating;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-sync.animated #freepik--device-1--inject-12 {
+    animation: 3s Infinite linear floating;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-sync.animated #freepik--apps-icons--inject-12 {
+    animation: 3s Infinite linear floating;
+    animation-delay: 0s;
+}
+
+@keyframes floating {
+    0% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+svg#freepik_stories-sync:not(.animated) .animable {
+    opacity: 0;
+}
+
+svg#freepik_stories-sync.animated #freepik--background-complete--inject-16 {
+    animation: 6s Infinite linear heartbeat;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-sync.animated #freepik--device-1--inject-16 {
+    animation: 6s Infinite linear floating;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-sync.animated #freepik--device-2--inject-16 {
+    animation: 1.5s Infinite linear wind;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-sync.animated #freepik--Character--inject-16 {
+    animation: 6s Infinite linear floating;
+    animation-delay: 0s;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+
+    10% {
+        transform: scale(1.1);
+    }
+
+    30% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    60% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes floating {
+    0% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes wind {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(1deg);
+    }
+
+    75% {
+        transform: rotate(-1deg);
+    }
+}
+
+svg#freepik_stories-voice-interface:not(.animated) .animable {
+    opacity: 0;
+}
+
+svg#freepik_stories-voice-interface.animated #freepik--Temperature--inject-92 {
+    animation: 6s Infinite linear heartbeat;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-voice-interface.animated #freepik--Padlock--inject-92 {
+    animation: 6s Infinite linear heartbeat;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-voice-interface.animated #freepik--Light--inject-92 {
+    animation: 6s Infinite linear heartbeat;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-voice-interface.animated #freepik--Microphone--inject-92 {
+    animation: 3s Infinite linear heartbeat;
+    animation-delay: 0s;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+
+    10% {
+        transform: scale(1.1);
+    }
+
+    30% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    60% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+svg#freepik_stories-features-overview:not(.animated) .animable {
+    opacity: 0;
+}
+
+svg#freepik_stories-features-overview.animated #freepik--background-simple--inject-177 {
+    animation: 1.5s Infinite linear wind;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-features-overview.animated #freepik--Device--inject-177 {
+    animation: 6s Infinite linear shake;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-features-overview.animated #freepik--Icons--inject-177 {
+    animation: 6s Infinite linear shake;
+    animation-delay: 0s;
+}
+
+@keyframes wind {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(1deg);
+    }
+
+    75% {
+        transform: rotate(-1deg);
+    }
+}
+
+@keyframes shake {
+
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
